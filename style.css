@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #222;
+    color: white;
+   font-family: "Press Start 2P", system-ui;
+   min-height: 400px;
+
+}
+
+header {
+border-bottom: solid 2px;
+    position: relative;
+    height: 120px;
+    padding-top: 10px;
+}
+
+header button {
+   font-family: "Press Start 2P", system-ui;
+   position: absolute;
+   font-size: 7px;
+   padding: 6px 2px;
+   border: transparent;
+   cursor: pointer;
+   left: 5px;
+   top: 6px;
+
+
+
+}
+
+header h3 {
+position: absolute;
+left: 150px;
+top: 30px;
+
+
+}
+ .head {
+    position: absolute;
+    right: 5px;
+
+}
+.logo {
+    border: solid 1px;
+    width: 5%;
+    text-align: center;
+    padding: 8px;
+    background-color: white;
+    color: #222;
+    position: absolute;
+    left: 270px;
+    top: 95px;
+
+
+}
+
+
+main {
+
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 50px;
+}
+.left-side {
+
+    width: 30%;
+    text-align: center;
+}
+
+.right-side {
+
+    width: 40%;
+}
+
+.left-side input {
+    width:40% ;
+    padding: 10px ;
+    background-color: #222;
+    border: solid white;
+    display: block;
+    margin: 15px auto;
+    color: white;
+    text-align: center;
+}
+
+.left-side button {
+       font-family: "Press Start 2P", system-ui;
+          font-size: 7px;
+   padding: 6px 2px;
+   border: transparent;
+   cursor: pointer;
+
+}
+
+.right-side h5 {
+    font-size: 8px;
+}
