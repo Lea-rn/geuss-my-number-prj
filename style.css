@@ -47,7 +47,6 @@ top: 30px;
 
 }
 .logo {
-    border: solid 1px;
     width: 5%;
     text-align: center;
     padding: 8px;
@@ -88,6 +87,8 @@ main {
     margin: 15px auto;
     color: white;
     text-align: center;
+
+    
 }
 
 .left-side button {
